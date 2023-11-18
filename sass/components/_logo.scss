@@ -1,0 +1,44 @@
+.site-nav__logo {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 72% 28% 65% 35% / 34% 66% 34% 66%;
+
+    @media screen and ( min-width:768px) {
+        width: 70px;
+    }
+
+    @media screen and ( min-width:1200px) {
+        display: flex;
+        width: 100px;
+    }
+}
+.link__logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.wprap__title-logo {
+    display: flex;
+    flex-direction: column;
+}
+.logo__title {
+    text-shadow: 0px 7px 12px rgba(66, 68, 90, 1);
+    font-size: 18px;
+    color: #fcf3f3;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+
+        @media screen and (min-width:1200px) {
+                display: flex;
+                width: 100px;
+                margin-left: 70px;
+                font-size: 28px;
+            }
+}
+.margin-b__title{
+    @media screen and (min-width:1200px) {
+            margin-bottom: 10px;
+        }
+}
