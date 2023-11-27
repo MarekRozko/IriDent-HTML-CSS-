@@ -10,57 +10,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <!-- i18next core -->
+    <script src="https://cdn.jsdelivr.net/npm/i18next@22.4.5/dist/umd/i18next.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.0.1/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+        
+    <script async src="./js/languages.js"></script>
+    <script async src="./js/mobile-menu.js"></script>
+    <script async src="./js/uslugi-list.js"></script>
+    <script async src="./js/carusel.js"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
-
-                <header class="page-header">
-                    <div class="wraprer-nav">
-                        <nav class="site-nav">
-                            <a class="link__logo" href="./index.html">
-                                <img class="site-nav__logo" src="./images/icons/IriDent.png" alt="logo" width="30">
-                                <div class="wprap__title-logo">
-                                    <p class="logo__title margin-b__title">IriDent</p>
-                                    <p class="logo__title">Stomatologia</p>
-                                </div>
-                            </a>
-                        
-                            <ul class="site-nav__list list">
-                                <li class="site-nav__item">
-                                    <a class="site-nav__link" href="./index.html">Gabinet</a>
-                                </li>
-                                <li class="site-nav__item">
-                                    <a class="site-nav__link" href="./portfolio.html">Uslugi</a>
-                                </li>
-                                <li class="site-nav__item">
-                                    <a class="site-nav__link" href="./contacts.html">Zesół</a>
-                                </li>
-                                <li class="site-nav__item">
-                                    <a class="site-nav__link" href="./contacts.html">Cennik</a>
-                                </li>
-                                <li class="site-nav__item">
-                                    <a class="site-nav__link" href="./contacts.html">Kontakt</a>
-                                </li>
-                            </ul>
-                            <a class="mobile__link" href="tel:577583482">
-                                <img src="./images/icons/mobile.svg" alt="phone">
-                            </a>
-                        </nav>
-                        
-                            <button type="button" class="menu-open-btn" aria-label="open buttons">
-                                <img src="./images/icons/menu.svg" alt="icon-menu" width="40">
-                            </button>
-                        <ul class="contacts list">
-                            <li class="contacts__item">
-                                <a class="contacts__link contacts__link__tel" href="tel:+380961111111">
-                                    <img class="icon__tel" src="./images/icons/mobile.svg" alt="phone">
-                                    <span class="contacts__text">+48 577 583 482</span>
-                                </a>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a class="link__logo" href="./index.html">
+                    <p>IriDent</p>
+                </a>
+                <div class="header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a id="content" class="menu__link lang" href="#" data-i18n="menu.gabinet">Gabinet</a></li>
+                            <li>
+                                <a class="menu__link lang" href="#" data-i18n="menu.services">Usługi</a>
+                                <img class="arrow__down" src="./images/icons/arrow_down.svg" alt="strzałka">
+                                <ul class="dropdown-content list">
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.preventiveDentistry">Profilaktyka Stomatologiczna</a>
+                                    </li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.generalDentistry">Stomatologia ogólna</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.prosthodontics">Protetyka</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.aestheticDentistry">Stomatologia Estetyczna</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.endodontics">Endodoncja</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.dentalSurgery">Chirurgia Stomatologiczna</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.orthodontics">Ortodoncja</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.dentalImplants">Implanty Zębów</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.teethWhitening">Wybielanie</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.pediatricDentistry">Stomatologia Dziecięca</a></li>
+                                    <li><a class="menu__sub-link lang" href="#" data-i18n="menu.dentalRadiology">Pracownia RTG</a></li>
+                                </ul>
                             </li>
+                            <li><a class="menu__link lang" href="#" data-i18n="menu.team">Zespół</a></li>
+                            <li><a class="menu__link lang" href="#" data-i18n="menu.pricelist">Cennik</a></li>
+                            <li><a class="menu__link lang" href="#" data-i18n="menu.contact">Kontakt</a></li>
                         </ul>
-                    </div>
-                </header>
-    <script async src="./js/mobile-menu.js"></script>
+                        <ul class="languages-list list">
+                            <div class="languages__button">
+                                <button class="button__polish" type="button" onclick="changeLanguage('pl')"></button>
+                                <button class="button__ukrain" type="button" onclick="changeLanguage('uk')"></button>
+                            </div>
+                        </ul>
+                    </nav>
+                    <button type="button" class="menu-open-btn" aria-label="open buttons">
+                        <img src="./images/icons/menu-mobile.svg" alt="icon-menu" width="40">
+                    </button>
+                    <button type="button" class="menu-close-btn" aria-label="close button">
+                        <img src="./images/icons/close-mobile.svg" alt="icon-close">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="mobile__menu is-hidden">
+            <div class="mobile__container">
+                <ul class="mobile__menu-list list"> 
+                    <li>
+                        <a class="mobile__menu-link lang" data-i18n="menu.gabinet" href="#">Gabinet</a>
+                    </li>
+                    <li>
+                        <a class="mobile__menu-link lang" data-i18n="menu.services" href="#">Uslugi</a>
+                    </li>
+                    <li>
+                        <a class="mobile__menu-link lang" data-i18n="menu.team" href="#">Zesół</a>
+                    </li>
+                    <li>
+                        <a class="mobile__menu-link lang" data-i18n="menu.pricelist" href="#">Cennik</a>
+                    </li>
+                    <li>
+                        <a class="mobile__menu-link active__link lang" data-i18n="menu.contact" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="video-container">
+            <iframe class="video-bg__header" src="https://www.youtube.com/embed/3kj3sZW7Bco?autoplay=1&mute=1&controls=0&modestbranding=1&showinfo=0&loop=1" style="border: none;" height="100%" allowfullscreen></iframe>
+
+
+
+        </section>
+
+
+    </div>
+
 </body>
 </html>
+
+
+
+
+
