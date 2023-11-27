@@ -17,8 +17,6 @@
         
     <script async src="./js/languages.js"></script>
     <script async src="./js/mobile-menu.js"></script>
-    <script async src="./js/uslugi-list.js"></script>
-    <script async src="./js/carusel.js"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
@@ -34,8 +32,7 @@
                             <li><a id="content" class="menu__link lang" href="#" data-i18n="menu.gabinet">Gabinet</a></li>
                             <li>
                                 <a class="menu__link lang" href="#" data-i18n="menu.services">Usługi</a>
-                                <img class="arrow__down" src="./images/icons/arrow_down.svg" alt="strzałka">
-                                <ul class="dropdown-content list">
+                                <!-- <ul class="dropdown-content list">
                                     <li><a class="menu__sub-link lang" href="#" data-i18n="menu.preventiveDentistry">Profilaktyka Stomatologiczna</a>
                                     </li>
                                     <li><a class="menu__sub-link lang" href="#" data-i18n="menu.generalDentistry">Stomatologia ogólna</a></li>
@@ -48,7 +45,7 @@
                                     <li><a class="menu__sub-link lang" href="#" data-i18n="menu.teethWhitening">Wybielanie</a></li>
                                     <li><a class="menu__sub-link lang" href="#" data-i18n="menu.pediatricDentistry">Stomatologia Dziecięca</a></li>
                                     <li><a class="menu__sub-link lang" href="#" data-i18n="menu.dentalRadiology">Pracownia RTG</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li><a class="menu__link lang" href="#" data-i18n="menu.team">Zespół</a></li>
                             <li><a class="menu__link lang" href="#" data-i18n="menu.pricelist">Cennik</a></li>
@@ -91,11 +88,17 @@
                 </ul>
             </div>
         </div>
-        <section class="video-container">
-            <iframe class="video-bg__header" src="https://www.youtube.com/embed/3kj3sZW7Bco?autoplay=1&mute=1&controls=0&modestbranding=1&showinfo=0&loop=1" style="border: none;" height="100%" allowfullscreen></iframe>
-
-
-
+        <section>
+                <div class="video-player__container">
+                    <video disablepictureinpicture="" class="video-player__video" autoplay="1" loop="1" preload="none" src="./video/ASMR Dental Office Sounds (dentist drills, dental chair, scaling teeth, etc).mp4" playsinline="" muted="0"></video>
+                </div>
+            <div class="content-wrap">
+                <h1 class="title__hero lang" data-i18n="hero.title">Stomatologia Gabinet</h1>
+                <p class="subtitle__hero lang" data-i18n="hero.subtitle">Odwiedź naszą nowoczesną stomatologię i ciesz się pięknym uśmiechem każdego dnia!</p>
+                <div class="wrap-button__hero">
+                    <a class="button__hero-link lang" data-i18n="hero.button" href="#">Umów wizytę</a>
+                </div>
+            </div>
         </section>
 
 

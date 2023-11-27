@@ -1,13 +1,4 @@
-.site-nav__logo {
-    width: 90px;
-    @media screen and ( min-width:768px) {
-        width: 70px;
-    }
 
-    @media screen and ( min-width:1200px) {
-        width: 100px;
-    }
-}
 .link__logo {
     display: flex;
     align-items: center;
@@ -15,26 +6,5 @@
     color: black;
 
 }
-.wprap__title-logo {
-    display: flex;
-    flex-direction: column;
-}
-.logo__title {
-    text-shadow: 0px 7px 12px rgba(66, 68, 90, 1);
-    font-size: 18px;
-    color: #fcf3f3;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 20px;
 
-        @media screen and (min-width:1200px) {
-                display: flex;
-                width: 100px;
-                margin-left: 70px;
-                font-size: 28px;
-            }
-}
-.margin-b__title{
-    @media screen and (min-width:1200px) {
-            margin-bottom: 10px;
-        }
-}
+

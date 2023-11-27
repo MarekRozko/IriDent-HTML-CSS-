@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
             "menu.team": "Zespół",
             "menu.pricelist": "Cennik",
             "menu.contact": "Kontakt",
-            "p.call": "Zamów wizyte u nas.Zadzwoń do nas"
-            
+            "hero.title": "Stomatologia Gabinet",
+            "hero.subtitle": "Odwiedź naszą nowoczesną stomatologię i ciesz się pięknym uśmiechem każdego dnia!",
+            "hero.button": "Umów wizytę",
           }
         },
         uk: {
@@ -47,7 +48,9 @@ document.addEventListener('DOMContentLoaded', function() {
             "menu.team": "Команда",
             "menu.pricelist": "Ціни",
             "menu.contact": "Контакти",
-            "p.call": "Замовте візит до нас. Зателефонуйте нам",
+            "hero.title": "Стоматологічний кабінет",
+            "hero.subtitle": "Завітайте до нашої сучасної стоматології та насолоджуйтесь гарною посмішкою щодня!",
+            "hero.button": "Запишіться на прийом",
             
           }
         },
