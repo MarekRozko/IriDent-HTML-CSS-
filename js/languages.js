@@ -28,6 +28,18 @@ document.addEventListener('DOMContentLoaded', function() {
             "hero.title": "Stomatologia Gabinet",
             "hero.subtitle": "Odwiedź naszą nowoczesną stomatologię i ciesz się pięknym uśmiechem każdego dnia!",
             "hero.button": "Umów wizytę",
+            "about.subtitle1": "Jesteśmy zespołem doświadczonych specjalistów, dla których zdrowie i piękny uśmiech pacjentów są najważniejsze.",
+            "about.title": "Kim jesteśmy",
+            "about.subtitle2": "Nasi lekarze stale podnoszą swoje kwalifikacje, aby zapewnić Ci kompleksową opiekę na najwyższym poziomie.",
+            "about.subtitle3": "Z nami możesz czuć się pewnie i komfortowo podczas każdej wizyty.",
+            "resulat.row1": "Zadowolonych pacjentów",
+            "resulat.row2": "Wykonanych zabiegów",
+            "resulat.row3": " Lat doświadczenia",
+            "mission.title": "Nasza Misja",
+            "mission.text1": "Naszym celem jest zapewnienie kompleksowej opieki stomatologicznej na najwyższym poziomie, przy zachowaniu przyjaznej atmosfery i komfortu pacjenta.",
+            "mission.text2": "Dążymy do ciągłego rozwoju i wprowadzania innowacyjnych rozwiązań, aby sprostać oczekiwaniom naszych pacjentów.",
+            "mission.text3": "Zapewniamy profesjonalizm, troskę o zdrowie oraz piękny i zdrowy uśmiech.",
+
           }
         },
         uk: {
@@ -51,7 +63,17 @@ document.addEventListener('DOMContentLoaded', function() {
             "hero.title": "Стоматологічний кабінет",
             "hero.subtitle": "Завітайте до нашої сучасної стоматології та насолоджуйтесь гарною посмішкою щодня!",
             "hero.button": "Запишіться на прийом",
-            
+            "about.subtitle1": "Ми - команда досвідчених фахівців, для яких здоров'я та красива посмішка пацієнтів є найважливішим.",
+            "about.title": "Хто ми",
+            "about.subtitle2": "Наші лікарі постійно підвищують свою кваліфікацію, щоб надати Вам комплексну допомогу на найвищому рівні.",
+            "about.subtitle3": "З нами Ви почуватиметеся впевнено та комфортно під час кожного візиту.",
+            "resulat.row1": "Задоволені пацієнти",
+            "resulat.row2": "Виконані процедури",
+            "resulat.row3": "Років досвіду",
+            "mission.title": "Наша місія",
+            "mission.text1": "Наша мета – надати комплексну стоматологічну допомогу на найвищому рівні, зберігаючи доброзичливу атмосферу та комфорт пацієнта.",
+            "mission.text2": "Ми прагнемо до постійного розвитку та впровадження інноваційних рішень, щоб відповідати очікуванням наших пацієнтів.",
+            "mission.text3": "Ми забезпечуємо професіоналізм, турботу про здоров'я та красиву та здорову усмішку.",
           }
         },
       }

@@ -14,9 +14,12 @@
     <script src="https://cdn.jsdelivr.net/npm/i18next@22.4.5/dist/umd/i18next.min.js"></script>
     <script
         src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.0.1/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+
+
         
     <script async src="./js/languages.js"></script>
     <script async src="./js/mobile-menu.js"></script>
+    <script async src="./js/result.js"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
@@ -100,8 +103,48 @@
                 </div>
             </div>
         </section>
-
-
+        <section class="main-about-it">
+            <div>
+                <img class="about-it__img" src="./images/dental-1.jpeg" alt="dental gabinet">
+            </div>
+            <div class="wrap-about-it__title">
+                <h1 class="about-it__title lang" data-i18n="about.title">Kim jesteśmy</h1>
+                <p class="about-it__subtitle lang" data-i18n="about.subtitle1">Jesteśmy zespołem doświadczonych specjalistów, dla których zdrowie i piękny uśmiech
+                    pacjentów są najważniejsze.</p>
+                <p class="about-it__subtitle lang" data-i18n="about.subtitle2">Nasi lekarze stale podnoszą swoje kwalifikacje, aby zapewnić Ci kompleksową opiekę na
+                    najwyższym poziomie.</p>
+                <p class="about-it__subtitle lang" data-i18n="about.subtitle3">Z nami możesz czuć się pewnie i komfortowo podczas każdej wizyty.</p>
+            </div>
+        </section>
+        <section class="our-mission">
+            <div>
+                <img class="mission-img" src="./images/dental-2.webp" alt="dental img">
+                <img class="mission-img" src="./images/dental-3.jpeg" alt="dental ">
+            </div>
+            <div class="mission-wrap__text">
+                <h3 class="mission__title lang" data-i18n="mission.title">Nasza Misja</h3>
+                <p class="mission-text lang" data-i18n="mission.text1">Naszym celem jest zapewnienie kompleksowej opieki stomatologicznej na najwyższym poziomie, przy zachowaniu przyjaznej atmosfery i komfortu pacjenta.</p>
+                <p class="mission-text lang" data-i18n="mission.text2">Dążymy do ciągłego rozwoju i wprowadzania innowacyjnych rozwiązań, aby sprostać oczekiwaniom
+                    naszych pacjentów.</p>
+                <p class="mission-text lang" data-i18n="mission.text3">Zapewniamy profesjonalizm, troskę o zdrowie oraz piękny i zdrowy uśmiech.</p>
+            </div>
+        </section>
+        <section class="result"> 
+            <div class="number-wrap">
+                <div class="item">
+                    <div class="number" data-max="97%"></div>
+                    <h4 class="number__subtitle lang" data-i18n="resulat.row1">Zadowolonych pacjentów</h4>
+                </div>
+                <div class="item">
+                    <div class="number1" data-max="10000+"></div>
+                    <h4 class="number__subtitle lang" data-i18n="resulat.row2">Wykonanych zabiegów</h4>
+                </div>
+                <div class="item">
+                    <div class="number2" data-max="10+"></div>
+                    <h4 class="number__subtitle lang" data-i18n="resulat.row3">Lat doświadczenia</h4>
+                </div>
+            </div>
+        </section>
     </div>
 
 </body>

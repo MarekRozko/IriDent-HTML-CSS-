@@ -1,0 +1,31 @@
+.our-mission {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: color-mix(in srgb, var(--dominant-color, #0f1305) 10%, transparent);
+}
+.mission-img{
+    width: 100%;
+    border-radius: 32px;
+    margin-bottom: 32px;
+}
+.mission-wrap__text{
+    padding: 16px;
+    border: solid 2px var(--dominant-text);
+    border-radius: 32px;
+}
+.mission__title{
+    font-family: "Inter Tight" sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 31px;
+    margin-bottom: 16px;
+}
+.mission-text{
+    font-family: "Inter Tight" sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}

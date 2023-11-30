@@ -39,7 +39,7 @@
     font-size: 20px;
     line-height: 25px;
     font-weight: 500;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     @media (min-width: 768px) {
         font-size: 28px;
         line-height: 29px;
@@ -87,4 +87,8 @@
         line-height: 34px;
         font-weight: 900;
         }
+}
+
+.wrap-button__hero{
+    padding-bottom: 25px;
 }

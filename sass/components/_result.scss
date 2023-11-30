@@ -1,0 +1,32 @@
+.result {
+    position: relative;
+    padding-bottom: 6rem;
+    background-color: #ffffff;
+}
+
+.number-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.item {
+    margin-bottom: 16px;
+}
+
+.number,.number1,.number2{
+    color: var(--dominant-color);
+    font-family: "Inter Tight" sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    overflow-wrap: break-word;
+}
+
+.number__subtitle{
+    font-family: "Inter Tight" sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
